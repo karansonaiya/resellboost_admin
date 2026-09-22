@@ -1,5 +1,5 @@
 [build]
-  command = "npx tsc && vite build"
+  command = "chmod -R +x node_modules/.bin && npm run build"
   publish = "dist"
 
 [[redirects]]
